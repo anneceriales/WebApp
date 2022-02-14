@@ -1,0 +1,68 @@
+body{
+	background-color:#e3f2fd;
+}
+.navbar{
+	background-color:#fff;
+	-webkit-box-shadow: 3px 3px 5px 6px #000;
+	-moz-box-shadow:    3px 3px 5px 6px #000;
+	box-shadow:         3px 3px 5px 6px #000;
+}
+.nav-link{
+	color:#fff;
+}
+.header_img{
+	width:100%;
+	opacity:0.7;
+}
+.separator{
+	background-color:#000;
+	height:10px;
+}
+.img-responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+	font-weight:bold;
+}
+/*Iframe*/
+iframe{
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+	box-shadow:         3px 3px 5px 6px #ccc;
+}
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  /* padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */ */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+	font-family:Arial Black;
+}
+
+.content{
+	padding:3%;
+}
